@@ -12,79 +12,435 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53709
+56415
 Successfully changed project path to: /Users/anulagarwal/Documents/Clean-It/Clean It
 /Users/anulagarwal/Documents/Clean-It/Clean It
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 169.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 85.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/anulagarwal/Documents/Clean-It/Clean It/Assets
 GfxDevice: creating device client; threaded=0
-2021-02-16 21:58:23.789 Unity[2526:95654] Color LCD preferred device: Intel HD Graphics 4000 (low power)
-2021-02-16 21:58:23.789 Unity[2526:95654] Metal devices available: 1
-2021-02-16 21:58:23.789 Unity[2526:95654] 0: Intel HD Graphics 4000 (low power)
-2021-02-16 21:58:23.791 Unity[2526:95654] Using device Intel HD Graphics 4000 (low power)
+2021-02-17 15:27:31.720 Unity[6089:170846] Color LCD preferred device: Intel HD Graphics 4000 (low power)
+2021-02-17 15:27:31.720 Unity[6089:170846] Metal devices available: 1
+2021-02-17 15:27:31.720 Unity[6089:170846] 0: Intel HD Graphics 4000 (low power)
+2021-02-17 15:27:31.721 Unity[6089:170846] Using device Intel HD Graphics 4000 (low power)
 Initializing Metal device caps: Intel HD Graphics 4000
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56526
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56089
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003200 seconds.
+Registered in 0.000531 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 383.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 89.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.810 seconds
+- Completed reload, in  4.088 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007816 seconds.
+Registered in 0.001755 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 140.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 86.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/PlayerSettings.bindings.cs:807)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:130)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs line 130]
+
+PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/PlayerSettings.bindings.cs:807)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:130)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs line 130]
+
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.134 seconds
+- Completed reload, in  1.895 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.6 MB.
-System memory in use after: 167.1 MB.
+Unloading 2619 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 183.1 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2793.
-Total: 10.900313 ms (FindLiveObjects: 1.429336 ms CreateObjectMapping: 0.653920 ms MarkObjects: 4.936703 ms  DeleteObjects: 3.876838 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6c1105aea63a748fcaa5f7f2e0893d') in 1.005482 seconds
-  Import took 1.021845 seconds .
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3014.
+Total: 5.842409 ms (FindLiveObjects: 0.449616 ms CreateObjectMapping: 0.193410 ms MarkObjects: 2.571110 ms  DeleteObjects: 2.626385 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.784956 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6c1105aea63a748fcaa5f7f2e0893d') in 0.013341 seconds
-  Import took 0.022936 seconds .
+  path: Assets/Obi/Resources/ObiMaterials/Particle.mat
+  artifactKey: Guid(fb972beb020dd4ff5ab78835f4393522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/Particle.mat using Guid(fb972beb020dd4ff5ab78835f4393522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775441a8837e0e2ed38155e2f7f733a7') in 0.856224 seconds
+  Import took 0.862916 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Obi/Samples/Fluid
+  artifactKey: Guid(5670fc580620e46af8da9fd360844de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Fluid using Guid(5670fc580620e46af8da9fd360844de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fc29ec7ac839c1d6d65f9927aebcb1') in 0.001087 seconds
+  Import took 0.007360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Obi/Samples/Fluid/FaucetAndBucket.unity
+  artifactKey: Guid(bc5ce9a0e433b45abbd22fdbce538d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Fluid/FaucetAndBucket.unity using Guid(bc5ce9a0e433b45abbd22fdbce538d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82b86c82020fc14fa1d1903a95195dd') in 0.004409 seconds
+  Import took 0.012954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/particle.png
+  artifactKey: Guid(568ceb11f52ec4d36abc82bcf61af795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/particle.png using Guid(568ceb11f52ec4d36abc82bcf61af795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7d31650616a980a2d75ef616ce8d4a') in 0.385674 seconds
+  Import took 0.393394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/DielectricFluid.mat
+  artifactKey: Guid(ee4113bcaf3ab4ea889f0efde06e7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/DielectricFluid.mat using Guid(ee4113bcaf3ab4ea889f0efde06e7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbcb18c827472375a3e05b316c3cf32') in 0.094293 seconds
+  Import took 0.100458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/SimpleFluid.mat
+  artifactKey: Guid(d13c5e195ae374e2c8c0a8f73b1e13cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/SimpleFluid.mat using Guid(d13c5e195ae374e2c8c0a8f73b1e13cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ded4a40c509dbc5c223092fa19b599') in 0.017791 seconds
+  Import took 0.025699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/FluidColorOpaque.mat
+  artifactKey: Guid(76f82da5e66a243a69778c81a9ac78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/FluidColorOpaque.mat using Guid(76f82da5e66a243a69778c81a9ac78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213134c88e52a95eb4efde50efe026b6') in 0.067511 seconds
+  Import took 0.075364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/FluidColorBlend.mat
+  artifactKey: Guid(9336319734319414e85234bc91cf5254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/FluidColorBlend.mat using Guid(9336319734319414e85234bc91cf5254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bbecf24b0221462837bc0ea2f3c3dd') in 0.087010 seconds
+  Import took 0.095231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/InstancedStandard.mat
+  artifactKey: Guid(2b7dfa8ebb76247318ce5b7df4b97484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/InstancedStandard.mat using Guid(2b7dfa8ebb76247318ce5b7df4b97484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5651b86216a91cd8b93453bb838f1382') in 0.113897 seconds
+  Import took 0.120679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/OpaqueFluid.mat
+  artifactKey: Guid(1281c8dbfa8f04bb49819f7a417de1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/OpaqueFluid.mat using Guid(1281c8dbfa8f04bb49819f7a417de1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f163c5d11ef7f41f6e851fbfa0aad926') in 0.074399 seconds
+  Import took 0.080411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/DistanceFieldRendering.mat
+  artifactKey: Guid(f6bf1245292ed43c78875db43ca1aad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/DistanceFieldRendering.mat using Guid(f6bf1245292ed43c78875db43ca1aad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130caed194408f93a2a4525d2b804c39') in 0.059799 seconds
+  Import took 0.068453 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/PlayerSettings.bindings.cs:807)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:130)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs line 130]
+
+PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/PlayerSettings.bindings.cs:807)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:130)
+Obi.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/Obi/Editor/Common/CrossPlatformInput/CrossPlatformInputInitialize.cs line 130]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.4 MB.
+System memory in use after: 197.2 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3097.
+Total: 5.446394 ms (FindLiveObjects: 0.358553 ms CreateObjectMapping: 0.148555 ms MarkObjects: 2.783000 ms  DeleteObjects: 2.154263 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.6 MB.
+System memory in use after: 146.4 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3097.
+Total: 5.666123 ms (FindLiveObjects: 0.401643 ms CreateObjectMapping: 0.149578 ms MarkObjects: 2.547792 ms  DeleteObjects: 2.565387 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.645488 seconds.
+  path: Assets/Obi/Resources/ObiMaterials/particle.png
+  artifactKey: Guid(568ceb11f52ec4d36abc82bcf61af795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/ObiMaterials/particle.png using Guid(568ceb11f52ec4d36abc82bcf61af795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e70b496fa59455d972eed3002d4f8d3') in 0.050714 seconds
+  Import took 0.057428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.701882 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Materials/Checker.mat
+  artifactKey: Guid(359ef2e4b09204eeab112e419c308068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Materials/Checker.mat using Guid(359ef2e4b09204eeab112e419c308068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0e4910311f49acb1e10577ea591c65') in 0.314250 seconds
+  Import took 0.324791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Materials/Walls.mat
+  artifactKey: Guid(22451ea3bd268401796b02a7b7573725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Materials/Walls.mat using Guid(22451ea3bd268401796b02a7b7573725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8cfded97083f8b77fa348a3444a71') in 0.019160 seconds
+  Import took 0.026916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Materials/Checker.mat
+  artifactKey: Guid(359ef2e4b09204eeab112e419c308068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Materials/Checker.mat using Guid(359ef2e4b09204eeab112e419c308068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0e4910311f49acb1e10577ea591c65') in 0.056720 seconds
+  Import took 0.064698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Materials/Metal.mat
+  artifactKey: Guid(278487642d12d4bf78416679d50d6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Materials/Metal.mat using Guid(278487642d12d4bf78416679d50d6fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7e000036f444e35f5b3e538f264bc7') in 0.028240 seconds
+  Import took 0.037707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Materials/TestEnvironment.mat
+  artifactKey: Guid(a0a5f9e13fa7c47f78547e54896609da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Materials/TestEnvironment.mat using Guid(a0a5f9e13fa7c47f78547e54896609da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46a4b8466b4fe67177e80158b0cee79') in 0.038167 seconds
+  Import took 0.050106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Materials/CoarseChecker.mat
+  artifactKey: Guid(e78e1b735e05b4dee88b279cb6997001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Materials/CoarseChecker.mat using Guid(e78e1b735e05b4dee88b279cb6997001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34c74edcb54ca1531caad7d358ecd6e') in 0.022514 seconds
+  Import took 0.030249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.959678 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/DistanceFields/EnvironmentDF.asset
+  artifactKey: Guid(5eb5ff1af3a3f4a14977448198c232ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/DistanceFields/EnvironmentDF.asset using Guid(5eb5ff1af3a3f4a14977448198c232ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Obi/Plugins/libOni.bundle/Contents/MacOS/Oni
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Obi/Plugins/libOni.bundle/Contents/MacOS/Oni.dylib
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Obi/Plugins/libOni.bundle/Contents/MacOS/Oni.so
+Fallback handler could not load library /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Obi/Plugins/libOni.bundle/Contents/MacOS/Oni.bundle
+ -> (artifact id: '69c5b9f48b76586aac3e053f9b6cb0ab') in 0.346492 seconds
+  Import took 0.353842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.049838 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/CharacterFriction.physicMaterial
+  artifactKey: Guid(0d242f91ab1d749a8b6230e6da662881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/CharacterFriction.physicMaterial using Guid(0d242f91ab1d749a8b6230e6da662881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cb919f8119532f06f7db54c1325573') in 0.277588 seconds
+  Import took 0.283671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/HighFriction.asset
+  artifactKey: Guid(56297c6e785b44eb28e469b62cedc016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/HighFriction.asset using Guid(56297c6e785b44eb28e469b62cedc016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25f688114229175e49a591690cd99e8') in 0.006235 seconds
+  Import took 0.013717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/Ice.asset
+  artifactKey: Guid(7e318fd02475245f48f8f968e5ef09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/Ice.asset using Guid(7e318fd02475245f48f8f968e5ef09d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ab295f6885453073a63f0ab123687e') in 0.007637 seconds
+  Import took 0.019441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/VerySticky.asset
+  artifactKey: Guid(06e7bfec7795f448eb8800edc99dbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/VerySticky.asset using Guid(06e7bfec7795f448eb8800edc99dbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e307755851f5a9e6d3ac276c8264169') in 0.005860 seconds
+  Import took 0.014431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/RollingFriction.asset
+  artifactKey: Guid(e17a5bb573d9748ac8e836ddee291602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/RollingFriction.asset using Guid(e17a5bb573d9748ac8e836ddee291602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa251a3aaa13bc219d6368e6382de5c') in 0.007404 seconds
+  Import took 0.018285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/MediumFriction.asset
+  artifactKey: Guid(d368f2c47473d4bfb8dd9f08073cb403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/MediumFriction.asset using Guid(d368f2c47473d4bfb8dd9f08073cb403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71eef1ef90b6b1671d00fa53266a901') in 0.004528 seconds
+  Import took 0.013088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/LowFriction.asset
+  artifactKey: Guid(b231b678223e044588ce32ebccbe77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/LowFriction.asset using Guid(b231b678223e044588ce32ebccbe77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd62fd17a09a0f02182923770d70086e') in 0.003687 seconds
+  Import took 0.011018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/HighStaticFriction.asset
+  artifactKey: Guid(f7532232f07594be3a36470e25b47b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/CollisionMaterials/HighStaticFriction.asset using Guid(f7532232f07594be3a36470e25b47b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21dda415c155e19abd273719203e295') in 0.008083 seconds
+  Import took 0.020865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.948661 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Models/CubicSphere.fbx
+  artifactKey: Guid(2aa4d1401124f4f56bec911ef61b4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Models/CubicSphere.fbx using Guid(2aa4d1401124f4f56bec911ef61b4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7567cde3fb6abae4ad9485698469ca3') in 1.411897 seconds
+  Import took 1.418570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Models/TestEnvironment.fbx
+  artifactKey: Guid(64df75de10b494f109b074d28a8eade0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Models/TestEnvironment.fbx using Guid(64df75de10b494f109b074d28a8eade0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5899fdb7091bd6a569d9e9a77bcb778f') in 0.042190 seconds
+  Import took 0.049934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005416 seconds.
+  path: Assets/Obi/Samples/Common/SampleResources/Models/TestEnvironment.fbx
+  artifactKey: Guid(64df75de10b494f109b074d28a8eade0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Samples/Common/SampleResources/Models/TestEnvironment.fbx using Guid(64df75de10b494f109b074d28a8eade0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5899fdb7091bd6a569d9e9a77bcb778f') in 0.036813 seconds
+  Import took 0.045607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213855 seconds.
+  path: Assets/Obi/Resources/GUI/profiler_bck.png
+  artifactKey: Guid(a3476527001d2494a88fa4236e8dbf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/GUI/profiler_bck.png using Guid(a3476527001d2494a88fa4236e8dbf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de59fa803751d1517f40c2518c015dc6') in 0.016002 seconds
+  Import took 0.022274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Obi/Resources/GUI/thread_bck.png
+  artifactKey: Guid(8b6df8323f27749f58cbd0563786435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/GUI/thread_bck.png using Guid(8b6df8323f27749f58cbd0563786435b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ed86b558c87237276937d6ad2c21c9') in 0.013114 seconds
+  Import took 0.021955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Obi/Resources/GUI/profiler_toolbar.png
+  artifactKey: Guid(98f1105e6aebd46a1878df08ab79b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/GUI/profiler_toolbar.png using Guid(98f1105e6aebd46a1878df08ab79b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1de7b3a4a29a3e6149e3a25f0bc98c9') in 0.020245 seconds
+  Import took 0.028272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Obi/Resources/GUI/task_bck.png
+  artifactKey: Guid(c237f5e557ded47598c1e8e4c650aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/GUI/task_bck.png using Guid(c237f5e557ded47598c1e8e4c650aeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9bb97c8278f6668d2c7916d4312d89') in 0.024129 seconds
+  Import took 0.034015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Obi/Resources/GUI/scroll_peg.png
+  artifactKey: Guid(06f4c4a011cc740c08e92ac6806b7353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/GUI/scroll_peg.png using Guid(06f4c4a011cc740c08e92ac6806b7353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ac11deb059329f3a3279f7fa37ae74') in 0.029829 seconds
+  Import took 0.037979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Obi/Resources/GUI/ProfilerSkin.guiskin
+  artifactKey: Guid(b90d3c214c99743b0865fc0e0d1f1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Obi/Resources/GUI/ProfilerSkin.guiskin using Guid(b90d3c214c99743b0865fc0e0d1f1a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fff6d6010fb2ffafaa7a836d9b2ef30') in 0.318453 seconds
+  Import took 0.325062 seconds .
+
